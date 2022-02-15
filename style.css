@@ -6,10 +6,10 @@
 
 body {
   background: #224941 url("./img/bg.jpg") no-repeat center center/cover;
- background-position: right 50% bottom 40%;
   color: #fff;
   font-family: "Montserrat", sans-serif;
   min-height: 100vh;
+  height: 100%;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -119,8 +119,11 @@ body {
 }
 @media(max-width: 50em){
   body{
+   background-image: url("./img/mobile.jpg");
 
-    background-position: right 50% top -40px;
 
+  }
+  .title{
+    color: #fff;
   }
 }
