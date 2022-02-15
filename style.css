@@ -6,7 +6,9 @@
 
 body {
   background: #224941 url("./img/bg.jpg") no-repeat center center/cover;
-  background-position: right 30% bottom 10%;
+ background-position: right 50% bottom 40%;
+  
+
   color: #fff;
   font-family: "Montserrat", sans-serif;
   min-height: 100vh;
@@ -14,6 +16,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* background-size: 100%; */
   margin: 0;
 }
 .title {
@@ -114,5 +117,11 @@ body {
 
   to {
     transform: scale(1);
+  }
+}
+@media(max-width: 50em){
+  body{
+    background-position: right 50% top -70px;
+    /* background-position: center; */
   }
 }
